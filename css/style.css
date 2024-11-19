@@ -1,0 +1,201 @@
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 94);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  height: 50px;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.nav-computador {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 15rem;
+  display: flex;
+}
+
+.nav-computador li {
+  padding: 0 2rem;
+}
+
+.nav-computador a,
+.nav-celular a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-computador a {
+    position: relative;
+}
+
+.nav-computador a::after {
+    content: "";
+    position: absolute;
+    background-color: yellow;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+}
+
+.nav-computador a:hover:after {
+    width: 100%;
+}
+
+.nav-computador a:hover {
+  color: yellow;
+}
+
+.menu-celular {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background-color: rgba(0, 0, 139, 0.863);
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  z-index: 5;
+}
+
+.nav-celular {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.2rem;
+  width: 80%;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-celular li {
+  border-bottom: 1px solid #787272;
+  padding-bottom: 1.2rem;
+}
+
+.hamburger,
+.fechar {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.fechar {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: block;
+  align-self: end;
+}
+
+.fechar:hover {
+    color: yellow;
+}
+
+.hamburger:hover {
+    color: yellow;
+}
+
+.flex {
+  display: flex;
+}
+
+@media (max-width: 769px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav-computador {
+        display: none;
+        padding-left: 0px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        padding: 10px 30px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 5rem;
+    }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: calc(100% - 70px);
+}
+
+.container h1 {
+  backdrop-filter: blur(10px);
+  color: #fff;
+  width: 100%;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 2px 2px 1px #000;
+  padding: 2rem 0;
+}
+
+p {
+    font-size: 0.7rem;
+    margin: 0;
+    margin-top: 0.2rem;
+}
+
+footer {
+    background-color:rgb(0, 0, 94);
+    padding: 0px;
+    bottom: auto;
+    display: flex;
+    gap: 300px;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: center ;
+}
+
+footer p {
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+a.embaixo{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+} 
+
+.embaixo:hover {
+    color: yellow;
+}

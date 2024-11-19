@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/img/acessibilidade.jpg'); 
+    background-attachment: fixed;
+    height: 10rem;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+
+.container {
+    max-width: 485px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 139, 0.863);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 3em;
+    color: yellow;
+    text-shadow: 2px 4px 2px black;
+}
+
+
+.form-group {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+}
+
+.form-group2 {
+    padding: 2rem;
+    margin-left: 27px;
+    height: 22rem;
+}
+
+label {
+    color: yellow;
+    display: block;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.301);
+}
+
+.form-group2 label {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: yellow;
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.616);
+}
+
+input {
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.616);
+}
+
+
+input#inome {
+    position: relative;
+    left: 27px;
+    padding: 3px;
+}
+
+input#iemail {
+    position: relative;
+    left: 21px;
+    padding: 3px;
+}
+
+input#iidade {
+    position: relative;
+    left: 26px;
+    padding: 3px;
+}
+
+input#icidade {
+    position: relative;
+    left: 15px;
+    padding: 3px;
+}
+
+button {
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.1s;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 9rem;
+}
+
+textarea {
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.616);
+    resize: none;
+    border-radius: 10px;
+    overflow: auto;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+button#envia:hover {
+    background-color: rgb(0, 224, 0);
+    color: #000000;
+}
+
+button#limpa:hover {
+    background-color: red;
+    color: #000000;
+}
+
+div#botoes {
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    padding: 30px 0px;
+}
