@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 main {
     padding: 20px;
@@ -53,7 +54,6 @@ h2 {
     font-size: 1.2rem;
 }
 
-/* Ajuste para a seção especial */
 .faq-item.special .special-content {
     display: flex;
     align-items: flex-start;
@@ -106,18 +106,18 @@ h2 {
 
 @media (max-width: 429px) {
     .faq-content {
-        flex-direction: column; /* Imagem e texto empilhados */
-        gap: 1rem; /* Espaçamento reduzido */
-        padding: 1rem; /* Reduz o padding */
+        flex-direction: column; 
+        gap: 1rem; 
+        padding: 1rem;
     }
 
     .faq-content img {
-        max-width: 100%; /* Adapta ao contêiner */
+        max-width: 100%; 
     }
 
     .faq-content p {
-        max-width: 100%; /* Permite que o texto ocupe toda a largura */
-        font-size: 1rem; /* Fonte menor para telas pequenas */
+        max-width: 100%; 
+        font-size: 1rem; 
     }
 
     .btn {
