@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Acessibilidade para todos</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <link rel="shortcut icon" href="/img/favico.ico" type="image/x-icon">
+        <script src="/js/script.js" defer></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <img src="/img/logo.png" alt="Imagem de Uma logo do site, com o título de acessibilidade para todos" srcset="Imagem de Uma logo do site, com o título de acessibilidade para todos" class="logo">
+            <ul class="nav-computador">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/sobre.html">Sobre</a></li>
+                <li><a href="/html/artigos.html">Artigos</a></li>
+                <li><a href="/html/ferespe.html">Ferramentas especiais</a></li>
+                <li><a href="/html/contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-celular" id="celularMenu">
+                <button class="fechar" id="fecharBotao">
+                    <i class="fas fa-times">
+                        <p>Fechar</p>
+                    </i>
+                </button>
+                <ul class="nav-celular">
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/sobre.html">Sobre</a></li>
+                    <li><a href="/html/artigos.html">Artigos</a></li>
+                    <li><a href="/html/ferespe.html">Ferramentas especiais</a></li>
+                    <li><a href="/html/contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <button class="hamburger" id="hamburgerBotao">
+                <i class="fas fa-bars">
+                    <p>Menu</p>
+                </i>
+            </button>
+        </nav>
+        <main>
+
+        </main>
+        <footer>
+            <section class="footer">
+                <div class="isolada">
+                    <div class="dentro">
+                        <p>@2024 <a href="https://www.instagram.com/lincolnmgl?igsh=NDRxajQ2eXl5OGN6&utm_source=qr"  target="_blank" class="embaixo">Lincoln Brunkow Neto</a></p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </body>
+</html>

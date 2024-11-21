@@ -1,5 +1,4 @@
-
-
+@charset "UTF-8";
 
 body,
 html {
@@ -15,7 +14,7 @@ html {
   color: #fff;
   display: flex;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px 20px;
   height: 50px;
 }
 

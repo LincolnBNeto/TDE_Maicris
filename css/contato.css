@@ -128,7 +128,16 @@ div#botoes {
         padding: 3vw;
     }
 
+    input {
+        min-width: 7rem;
+        font-size: 0.8rem;
+    }
+
     textarea {
         width: 40vw;
+    }
+
+    .form-group {
+        margin: 0rem 1rem;
     }
 }

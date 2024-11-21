@@ -14,13 +14,13 @@
 
     <body>
         <nav class="navbar">
-            <img src="/img/logo.png" alt="" srcset="" class="logo">
+            <img src="/img/logo.png" alt="Imagem de Uma logo do site, com o título de acessibilidade para todos" srcset="Imagem de Uma logo do site, com o título de acessibilidade para todos" class="logo">
             <ul class="nav-computador">
                 <li><a href="/html/index.html">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="/html/sobre.html">Sobre</a></li>
+                <li><a href="/html/artigos.html">Artigos</a></li>
+                <li><a href="/html/ferespe.html">Ferramentas especiais</a></li>
+                <li><a href="/html/contato.html">Contato</a></li>
             </ul>
             <div class="menu-celular" id="celularMenu">
                 <button class="fechar" id="fecharBotao">
@@ -29,11 +29,11 @@
                     </i>
                 </button>
                 <ul class="nav-celular">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/sobre.html">Sobre</a></li>
+                    <li><a href="/html/artigos.html">Artigos</a></li>
+                    <li><a href="/html/ferespe.html">Ferramentas especiais</a></li>
+                    <li><a href="/html/contato.html">Contato</a></li>
                 </ul>
             </div>
 
@@ -51,15 +51,15 @@
                     <h1>Contato</h1>
                     <div class="form-group">
                         <label for="inome">Nome:</label>
-                        <input type="text" placeholder="Digite seu nome" id="inome" name="nome">
+                        <input type="text" placeholder="Digite seu nome" id="inome" name="nome" required>
                     </div>
                     <div class="form-group">
                         <label for="iemail">Email:</label>
-                        <input type="email" placeholder="Digite seu E-mail" id="iemail" name="email">
+                        <input type="email" placeholder="xxxxxx@xxxx.xxx" id="iemail" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="icidade">Cidade:</label>
-                        <input type="text" placeholder="Digite sua cidade" id="icidade" name="cidade">
+                        <label for="icidade">phone:</label>
+                        <input type="number" placeholder="(xx) xxxxx-xxxx" id="itelefone" name="telefone" required>
                     </div>
                     <h2>Mensagem</h2>
                     <div class="form-group2">
@@ -67,7 +67,7 @@
                     </div>
                     <div id="botoes">
                         <button type="reset" id="limpa">Limpar</button>
-                        <button type="button" id="envia" onclick="btnSendOnClick()">Enviar</button>
+                        <button type="button" id="envia">Enviar</button>
                         <input type="hidden" name="redirectTo">
                     </div>
                 </form>
