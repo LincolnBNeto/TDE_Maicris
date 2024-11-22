@@ -7,7 +7,7 @@
 }
 
 html {
-    background-image: url('../img/acessibilidade.jpg'); 
+    background-image: url('./acessibilidade.jpg'); 
     background-attachment: fixed;
     align-items: center;
     background-repeat: no-repeat;
