@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 section.img1 {
-    background-image: url("./todosjuntos.png");
+    background-image: url("todosjuntos.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@ section.img1 {
 }
 
 section.img2 {
-    background-image: url("./todosjuntos.png");
+    background-image: url("todosjuntos.png");
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
