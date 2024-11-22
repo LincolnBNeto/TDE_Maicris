@@ -20,3 +20,27 @@ function validateTelefone(telefone) {
   return re.test(telefone);
 }
 
+function btnSendOnClick() {
+ 
+  const txtNome = document.getElementById('inome');
+  const txtTel = document.getElementById('itelefone');
+  const txtEmail = document.getElementById('iemail');
+
+  if (txtNome.value.trim() === "") {
+      alert('Preenchimento obrigatório: Nome');
+      txtNome.focus();
+  }
+  else if (txtTel.value.trim() === "") {
+      alert('Preenchimento obrigatório: telefone');
+      txtTel.focus();
+  }
+  else if (!validateEmail(txtEmail.value)) {
+      alert('Preenchimento obrigatório: Email');
+      txtEmail.value = '';
+      txtEmail.focus();
+  }
+  else {
+      alert('Mensagem enviada com sucesso!!')
+      form.submit();
+  }
+}
